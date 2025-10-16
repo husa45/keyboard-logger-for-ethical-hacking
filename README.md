@@ -4,5 +4,6 @@
 
 **This is a keylogger that is used to log all key strokes on the target , plus capturing everything  copied to the clipboard .**
 
-**First :clone the repository to the intended destination
-      git clone repo https://github.com/husa45/keyboard-logger-for-ethical-hacking 
+**First :clone the repository to the intended destination**
+      git clone https://github.com/husa45/keyboard- logger-for-ethical-hacking 
+      
