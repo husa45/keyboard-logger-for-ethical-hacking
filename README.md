@@ -59,3 +59,6 @@ systemctl status keylogger.service
 **And now the tool is running in the background ,and captures everything typed by the keyboard or copied to the clipboard ,and then sent to the email that you want**
 
 ❕**Note :** the systemd daemon file was written so that whenever the script finsihes (by typing esc or any other forcing reason) , it will be restarted automatically . 
+
+
+👀 **Future updates :adding support for windows**.
