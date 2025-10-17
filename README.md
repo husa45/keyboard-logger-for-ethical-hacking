@@ -15,15 +15,14 @@ Then download the dependencies by typing :
 
 ```
 pip3 install -r requirements.txt
-
 ```
 
 ## Linux support :
-Now , if you are in a linux machine ,then this key logger supports key logging and clipboard capture , with the ability to cleat the clipboard every time it is captured , to avoid recapturing previuosly captured stuff <br/>
+Now , if you are in a linux machine ,then this key logger supports key logging and clipboard capture , with the ability to clean the clipboard every time it is captured , to avoid recapturing previuosly captured stuff. <br/>
 
 
 If you want to use the script in  an editor , make sure to press 'esc'
-when you finish , as this is the way to break out of the key logger thread .
+when you finish , as this is the way to break out of the key logger thread.
 
 This tool will automatically log the results to a file in the current working directory ,unless specified elsewhere .
 
@@ -43,6 +42,9 @@ type : ```echo $DISPLAY```
 then change the **Environment=DISPLAY=:1** line to whatever value you got.
 
 **If the environment variable DISPLAY isnt set correctly , pynput wont be able to connect to the display manager and the script wont run**
+
+**you should also change the variable ExecStart as guided inside the file ( here you specify the path of python interpreter + the path of the tool script)**
+
 
 finally ,type the following :
 ```
