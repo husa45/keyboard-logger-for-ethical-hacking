@@ -41,9 +41,9 @@ Then copy the contents of keylogger.service provided in the repository files to 
 type : ```echo $DISPLAY```
 then change the **Environment=DISPLAY=:1** line to whatever value you got.
 
-**If the environment variable DISPLAY isnt set correctly , pynput wont be able to connect to the display manager and the script wont run**<br/><br/>
+**If the environment variable DISPLAY isnt set correctly , pynput wont be able to connect to the display manager and the script wont run**.<br/><br/>
 
-**you should also change the variable ExecStart as guided inside the file ( here you specify the path of python interpreter + the path of the tool script)**<br/>
+**you should also change the variable ExecStart as guided inside the file ( here you specify the path of python interpreter + the path of the tool script).**<br/>
 
 
 finally ,type the following :
