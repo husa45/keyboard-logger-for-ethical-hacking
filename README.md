@@ -1,7 +1,7 @@
 # keyboard logger for ethical hacking
 
 
-⚠️ Intended use: This project is provided FOR AUTHORIZED SECURITY TESTING, RESEARCH, AND EDUCATIONAL PURPOSES ONLY. Do NOT use this tool on any device, network, or account without explicit written authorization from the owner. By using this software you confirm you have such authorization. See [LEGAL.md](LEGAL.md).
+⚠️ Intended use: This project is provided FOR AUTHORIZED SECURITY TESTING, RESEARCH, AND EDUCATIONAL PURPOSES ONLY. Do NOT use this tool on any device, network, or account without explicit written authorization from the owner. By using this software you confirm you have such authorization. See [LEGAL.md](LEGAL.md).<br/>
 
 
 **This is a keylogger that is used to log all key strokes on the target , plus capturing everything  copied to the clipboard .**<br/>
