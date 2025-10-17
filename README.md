@@ -1,6 +1,7 @@
 # keyboard logger for ethical hacking
 
-## ⚠️Warning: this tool is intended for educational purposes only , never use for malicious Intentions <br/>
+## ⚠️ Intended use: This project is provided FOR AUTHORIZED SECURITY TESTING, RESEARCH, AND EDUCATIONAL PURPOSES ONLY. Do NOT use this tool on any device, network, or account without explicit written authorization from the owner. The author assumes no responsibility for misuse or damage resulting from this software.
+
 
 **This is a keylogger that is used to log all key strokes on the target , plus capturing everything  copied to the clipboard .**<br/>
 
@@ -59,6 +60,5 @@ systemctl status keylogger.service
 **And now the tool is running in the background ,and captures everything typed by the keyboard or copied to the clipboard ,and then sent to the email that you want**
 
 ❕**Note :** the systemd daemon file was written so that whenever the script finsihes (by typing esc or any other forcing reason) , it will be restarted automatically . 
-
 
 👀 **Future updates :adding support for windows**.
